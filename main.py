@@ -1,16 +1,13 @@
-# This is a sample Python script.
+from bs4 import BeautifulSoup
+from time import sleep
+from tqdm import tqdm
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver import Chrome
+from selenium.webdriver.common.by import By
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    url = 'https://www.space-track.org/auth/login'
+    print(url)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+

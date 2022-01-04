@@ -9,5 +9,8 @@ from selenium.webdriver.common.by import By
 if __name__ == '__main__':
     url = 'https://www.space-track.org/auth/login'
     print(url)
+    print(url)
+    print(url)
+    print(url)
 
 
